@@ -1,0 +1,10 @@
+.contacto {
+    padding: 64px 152px;
+    background: #EAF2FD;
+}
+
+@media screen and (max-width: 1023px) {
+    .contacto {
+        padding: 32px;
+    }
+}

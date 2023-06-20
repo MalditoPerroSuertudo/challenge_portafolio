@@ -1,0 +1,51 @@
+.proyectos__contenedor__item__btns__repositoro {
+    background: #f5f5f5;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.proyectos__contenedor__item__btns__repositoro:hover, 
+.proyectos__contenedor__item__btns__repositoro:active {
+    letter-spacing: 5px;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+}
+
+.proyectos__contenedor__item__btns__repositoro::after {
+    content: "";
+    background: #2A7AE4; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+
+  .proyectos__contenedor__item__btns__repositoro:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+
+  @media screen and (max-width: 1023px) {
+    .proyectos__contenedor__item__btns__repositoro {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 12px 16px;
+    }
+}

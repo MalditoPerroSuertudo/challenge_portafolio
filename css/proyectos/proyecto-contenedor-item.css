@@ -1,0 +1,23 @@
+.proyectos__contenedor__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.proyectos__contenedor__item--volteado {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.proyectos__contenedor__item--ultimo {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .proyectos__contenedor__item {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}

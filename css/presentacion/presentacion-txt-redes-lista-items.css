@@ -1,0 +1,10 @@
+.presentacion__txt__redes__lista__items {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.presentacion__txt__redes__lista__items:hover {
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 5px;
+}

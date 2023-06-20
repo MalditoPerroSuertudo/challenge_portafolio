@@ -1,0 +1,22 @@
+.presentacion__img {
+    width: 368px;
+    height: 368px;
+    border-radius: 100%;
+    background: red;
+}
+
+@media screen and (max-width: 1023px) {
+    .presentacion__img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .presentacion__img {
+        width: 98px;
+        height: 98px;
+        margin-bottom: 16px;
+    }
+}
+

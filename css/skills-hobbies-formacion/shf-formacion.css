@@ -1,0 +1,10 @@
+.skills-hobies__formacion {
+    background: #EAF2FD;
+    padding: 82px;
+}
+
+@media screen and (max-width: 1023px) {
+    .skills-hobies__formacion {
+        padding: 32px
+    }
+}

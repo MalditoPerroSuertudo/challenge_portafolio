@@ -1,0 +1,16 @@
+.skills-hobbies__skills__contenedor__items, .skills-hobbies__hobbies__contenedor__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 16px;
+    width: 12%;
+    height: 120px;
+    background: #fff;
+}
+
+@media screen and (max-width: 1023px) {
+    .skills-hobbies__skills__contenedor__items, .skills-hobbies__hobbies__contenedor__items {
+        width: 27%;
+        margin-bottom: 32px;
+    }
+}

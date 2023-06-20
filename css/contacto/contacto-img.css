@@ -1,0 +1,12 @@
+.contacto__img {
+    width: 38%;
+    height: 635px;
+    background: red;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 1023px) {
+    .contacto__img {
+        display: none;
+    }
+}

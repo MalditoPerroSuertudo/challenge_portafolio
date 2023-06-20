@@ -1,0 +1,6 @@
+.skills-hobbies__formacion__contenedor__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32.5%;
+}

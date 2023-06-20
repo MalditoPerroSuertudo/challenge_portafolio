@@ -1,0 +1,43 @@
+.contacto__form__btn {
+    background: #2A7AE4;
+    color: #fff;
+    width: 133px;
+    height: 48px;
+    border-radius: 5px;
+    padding: 12px 16px;
+    border: none;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.contacto__form__btn:hover {
+    letter-spacing: 5px;
+    color: #2A7AE4;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+}
+
+.contacto__form__btn::after {
+    content: "";
+    background: #fff; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+
+  .contacto__form__btn:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }

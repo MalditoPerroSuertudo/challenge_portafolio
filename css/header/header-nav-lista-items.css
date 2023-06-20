@@ -1,0 +1,31 @@
+.header__nav__lista__items {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.email {
+    font-weight: 700;
+}
+
+.header__nav__lista__items:hover {
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1023px) {
+    .header__nav__lista__items {
+        display: none;
+    }
+
+    .email {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .email {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,28 @@
+.contacto__form__input {
+    background: #fff;
+    border-radius: 4px;
+    height: 56px;
+    margin-bottom: 32px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: raleway;
+}
+
+.contacto__form__input--textarea {
+    height: 133px;
+}
+
+.contacto__form__input::placeholder, .contacto__form__input--textarea {
+    font-size: 16px;
+    font-weight: 400;
+    color: #a2a2a2;
+    padding: 16px 12px 20px 12px;
+    font-family: raleway;
+}
+
+@media screen and (max-width: 1023px) {
+    .contacto__form__input {
+        height: 56px;
+    }
+}

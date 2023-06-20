@@ -1,0 +1,9 @@
+.proyectos {
+    padding: 0 152px 32px 152px;
+}
+
+@media screen and (max-width: 1023px) {
+    .proyectos {
+      padding: 32px;
+    }
+}

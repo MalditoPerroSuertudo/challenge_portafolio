@@ -1,0 +1,11 @@
+.contacto__txt__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .contacto__txt__titulo {
+        font-size: 22px;
+    }
+}

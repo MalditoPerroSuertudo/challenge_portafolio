@@ -1,0 +1,16 @@
+.proyectos__contenedor__item__img--a {
+    width: 69%;
+    margin-right: 16px;
+}
+
+.proyectos__contenedor__item__img--b {
+    width: 69%;
+    margin-left: 16px;
+}
+
+@media screen and (max-width: 1023px) {
+    .proyectos__contenedor__item__img--a, .proyectos__contenedor__item__img--b {
+        width: 100%;
+        margin: 0 0 16px 0;
+    }
+}

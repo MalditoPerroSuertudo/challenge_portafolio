@@ -1,0 +1,12 @@
+.presentacion__txt__titulo {
+    font-size: 49px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1023px) {
+    .presentacion__txt__titulo {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+}

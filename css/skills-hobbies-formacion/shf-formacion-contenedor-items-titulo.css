@@ -1,0 +1,11 @@
+.skills-hobbies__formacion__contenedor__items__titulo {
+    margin: 0 0 8px 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1023px) {
+    .skills-hobbies__formacion__contenedor__items__titulo {
+        font-size: 16px;
+    }
+}

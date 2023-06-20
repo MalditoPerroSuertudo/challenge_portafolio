@@ -1,0 +1,11 @@
+.skills-hobbies__formacion__contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+@media screen and (max-width: 1023px) {
+    .skills-hobbies__formacion__contenedor {
+        padding: 0
+    }
+}
