@@ -8,6 +8,11 @@
     margin-left: 16px;
 }
 
+.proyectos__contenedor__item__img--a, .proyectos__contenedor__item__img--b {
+    border: 3px solid #fff;
+    padding: 15px;
+}
+
 @media screen and (max-width: 1023px) {
     .proyectos__contenedor__item__img--a, .proyectos__contenedor__item__img--b {
         width: 100%;

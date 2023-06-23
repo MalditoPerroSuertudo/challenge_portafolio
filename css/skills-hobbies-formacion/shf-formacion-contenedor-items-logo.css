@@ -1,9 +1,13 @@
 .skills-hobbies__formacion__contenedor__items__logo {
-    background: #fff;
+    border: 2px solid #fff;
     height: 88px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 0 8px 0;
-    padding: 78px 88px;n
+    padding: 68px 78px;n
+}
+
+.skills-hobbies__formacion__contenedor__items__logo__img {
+    width: 80%;
 }

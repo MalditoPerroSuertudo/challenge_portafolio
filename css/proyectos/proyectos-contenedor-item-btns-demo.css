@@ -1,7 +1,7 @@
 .proyectos__contenedor__item__btns__demo {
-    background: #2a7ae4;
+    background: #008b8b;
     color: #fff;
-    border: 1px solid #2A7AE4;
+    border: 1px solid #fff;
     padding: 12px;
     font-size: 16px;
     font-weight: 400;
@@ -13,14 +13,13 @@
 
 .proyectos__contenedor__item__btns__demo:hover, 
 .proyectos__contenedor__item__btns__demo:active {
-    letter-spacing: 5px;
-    color: #2a7ae4;
-    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    box-shadow: 0 4px 16px #eccd6a;
+    font-weight: 700;
 }
 
 .proyectos__contenedor__item__btns__demo::after {
     content: "";
-    background: #fff; /* color de fondo hover */
+    background: #eccd6a; /* color de fondo hover */
     position: absolute;
     z-index: -1;
     padding: 16px 20px;
