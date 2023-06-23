@@ -9,3 +9,10 @@
         padding: 0
     }
 }
+
+@media screen and (max-width: 767px) {
+    .skills-hobbies__formacion__contenedor {
+        flex-direction: column;
+    }
+}
+

@@ -4,3 +4,9 @@
     justify-content: space-between;
     width: 32.5%;
 }
+
+@media screen and (max-width: 767px) {
+    .skills-hobbies__formacion__contenedor__items {
+        width: 100%;
+    }
+}
