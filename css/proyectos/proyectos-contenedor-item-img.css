@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 1023px) {
     .proyectos__contenedor__item__img--a, .proyectos__contenedor__item__img--b {
-        width: 100%;
         margin: 0 0 16px 0;
+        width: 86%;
     }
 }

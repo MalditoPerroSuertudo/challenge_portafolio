@@ -1,26 +1,28 @@
 .contacto__form__btn {
-    background: #2A7AE4;
-    color: #fff;
-    width: 133px;
-    height: 48px;
-    border-radius: 5px;
-    padding: 12px 16px;
-    border: none;
+    background: #f5f5f5;
+    color: #008b8b;
+    border: 2px solid #008b8b;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 400;
     position: relative;
     z-index: 1;
     overflow: hidden;
     display: inline-block;
+    width: 25%;
 }
 
-.contacto__form__btn:hover {
-    letter-spacing: 5px;
-    color: #2A7AE4;
-    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+.contacto__form__btn:hover,
+.contacto__form__btn:active {
+    color: #fff;
+    box-shadow: 0 4px 16px #eccd6a;
+    border: 2px solid #fff;
+    font-weight: 700;
 }
 
 .contacto__form__btn::after {
     content: "";
-    background: #fff; /* color de fondo hover */
+    background: #eccd6a; /* color de fondo hover */
     position: absolute;
     z-index: -1;
     padding: 16px 20px;
