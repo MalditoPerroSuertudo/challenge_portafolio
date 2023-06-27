@@ -43,3 +43,10 @@
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
   }
+
+  @media screen and (max-width: 1023px) {
+    .contacto__form__btn {
+        width: 40vw;
+        font-weight: 700;
+    }
+}
