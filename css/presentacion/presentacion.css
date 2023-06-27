@@ -16,7 +16,7 @@
     .presentacion {
         flex-direction: column-reverse;
         align-items: flex-start;
-        padding: 16px;
-        height: calc(40vh + 24px);
+        padding: 16px 16px 32px 16px;
+        height: calc(30vh + 24px);
     }
 }

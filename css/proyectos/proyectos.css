@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 767px) {
   .proyectos {
-    padding: 16px;
+    padding: 32px 16px;
   }
 }
