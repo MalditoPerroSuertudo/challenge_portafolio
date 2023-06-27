@@ -8,3 +8,9 @@
         padding: 32px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .contacto {
+        padding: 16px;
+    }
+}
