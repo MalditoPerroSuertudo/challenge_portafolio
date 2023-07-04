@@ -10,20 +10,14 @@
     padding: 25px 0 25px 0;
     font-size: 20px;
     font-weight: bolder;
-    width: 25vw;
+    width: fit-content;
 }
 
 .footer a {
     color: #eccd6a;
+    margin: 12px;
 }
 
 .footer a:hover {
     transform: translateY(-3px) scale(1.20);
-}
-
-@media screen and (max-width: 479px) {
-    .footer__contenedor {
-        width: 80vw;
-        font-size: 12px;
-    }
 }

@@ -4,3 +4,9 @@
     text-align: center;
     color: #eccd6a;
 }
+
+@media screen and (max-width: 479px) {
+    .footer__txt {
+        font-size: 12px;
+    }
+}
