@@ -11,3 +11,25 @@
         padding-top: 32px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .skills-hobbies__skills, .skills-hobbies__hobbies {
+        margin: 0;
+        padding: 16px;
+    }
+
+    .skills-hobbies__hobbies {
+        paddng: 16px;
+    }
+}
+
+
+@media screen and (max-width: 319px) {
+    .skills-hobbies__skills, .skills-hobbies__hobbies {
+        margin: 16px;
+    }
+
+    .skills-hobbies__hobbies {
+        padding-top: 16px;
+    }
+}

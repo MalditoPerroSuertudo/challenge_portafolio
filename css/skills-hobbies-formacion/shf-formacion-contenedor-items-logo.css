@@ -5,9 +5,32 @@
     justify-content: center;
     align-items: center;
     margin: 0 0 8px 0;
-    padding: 68px 78px;n
+    padding: 70px 25px;
 }
 
 .skills-hobbies__formacion__contenedor__items__logo__img {
-    width: 80%;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .skills-hobbies__formacion__contenedor__items__logo {
+        height: 200px;
+    }
+
+    .skills-hobbies__formacion__contenedor__items__logo__img {
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width: 479px) {
+    .skills-hobbies__formacion__contenedor__items__logo {
+        height: 150px;
+        padding: 35px 12px;
+    }
+
+    .skills-hobbies__formacion__contenedor__items__logo__img {
+        width: 70%;
+    }
+    
 }

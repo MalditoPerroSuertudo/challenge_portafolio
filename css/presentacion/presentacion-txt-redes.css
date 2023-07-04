@@ -1,9 +1,4 @@
 .presentacion__txt__redes {
-    width: 60%;
+    width: 100%;
 }
 
-@media screen and (max-width: 767px) {
-    .presentacion__txt__redes {
-        width: 100%;
-    }
-}

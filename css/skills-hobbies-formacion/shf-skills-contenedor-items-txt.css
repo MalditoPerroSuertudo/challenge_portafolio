@@ -3,3 +3,21 @@
     font-weight: 700;
     margin-top: 7px;
 }
+
+@media screen and (max-width: 1023px) {
+    .skills-hobbies__skills__contenedor__items__txt, .skills-hobbies__hobbies__contenedor__items__txt {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .skills-hobbies__skills__contenedor__items__txt, .skills-hobbies__hobbies__contenedor__items__txt {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .skills-hobbies__skills__contenedor__items__txt, .skills-hobbies__hobbies__contenedor__items__txt {
+        font-size: 12px;
+    }
+}

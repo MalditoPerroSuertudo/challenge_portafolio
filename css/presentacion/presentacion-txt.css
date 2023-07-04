@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 75vw;
     margin-right: 17px;
+    width: fit-content;
 }
 
 @media screen and (max-width: 1023px) {

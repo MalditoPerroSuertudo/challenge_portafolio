@@ -8,3 +8,9 @@
     border: 2px solid #eccd6a;
     padding: 5px;
 }
+
+@media screen and (max-width: 479px) {
+    .presentacion__txt__redes__lista__items {
+        font-size: 12px;
+    }
+}
